@@ -1,4 +1,5 @@
-venv_parent=/media/laptq/data/workspace/hello-design-patterns
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+venv_parent=$( realpath $DIR/.. )
 venv_name=.venv
 venv_path=$venv_parent/$venv_name
 [[ ! -d $venv_path ]] && python3 -m venv $venv_path
