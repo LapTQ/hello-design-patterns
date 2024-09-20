@@ -1,12 +1,18 @@
 # Design Patterns
 
+## Creational Patterns
+
+1. [Factory Method](./lessons/factory-method.ipynb)
+> [!TIP]
+> 1. Avoid code duplication:
+> > * Several classes doing the same job, and the implementations for that job are different (e.g., inference using PyTorch vs TensorRT).
+
 ## Behavioral Patterns
 
 1. [Command](./lessons/command.ipynb)
 > [!TIP]
 > 1. Avoid code duplication:
-> >  * afraid of breaking code in inheritance each time you modify the base class.
-> >  * between classes of different types but sharing the same job.
+> >  * Several classes doing the same job, and the implementation for that job is identical (e.g., ***copying***)
 > 2. Implement undo//redo.
 > 3. Queue, schedule operations.
 2. [Observer](./lessons/observer.ipynb)
