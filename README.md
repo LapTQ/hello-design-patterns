@@ -17,16 +17,19 @@
 > 3. Queue, schedule operations.
 2. [Observer](./lessons/observer.ipynb)
 > [!TIP]
-> 1. Get notified about any changes to the object they're observing.
+> Get notified about any changes to the object they're observing.
 3. [Value Object](./lessons/value-object.ipynb)
 > [!TIP]
-> 1. Represent simple, small entities where creating new instances (and keep it immutable) is more convenient than keeping a single reference to it.
+> Represent simple, small entities where creating new instances (and keep it immutable) is more convenient than keeping a single reference to it.
 4. [Null Object](./lessons/null-object.ipynb)
 > [!TIP]
-> 1. Avoid an if-else for checking special, rare case.
+> Avoid an if-else for checking special, rare case.
 5. [Template Method](./lessons/template-method.ipynb)
 > [!TIP]
-> 1. Have several classes contain almost identical algorithms with some minor differences.
+> Have several classes contain almost identical algorithms with some minor differences.
 6. [Pluggable Object](./lessons/pluggable-object.ipynb)
 > [!TIP]
-> 1. Avoid if-else for duplicated conditions.
+> Avoid if-else for duplicated conditions.
+7. [Pluggable Selector](./lessons/pluggable-selector.ipynb)
+> [!TIP]
+> Dynamically select the right implementation based on the input. Avoiding subclassing or if-else for just a small amount of variation.
