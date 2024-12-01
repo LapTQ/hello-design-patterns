@@ -41,4 +41,4 @@
 > Dynamically select the right implementation based on the input. Avoiding subclassing or if-else for just a small amount of variation.
 8. [Collecting Parameter](./lessons/collecting-parameter.ipynb)
 > [!TIP]
-> Store the results of multiple operations in a single variable.
+> Store the info of multiple operations in a single variable.
