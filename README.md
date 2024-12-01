@@ -7,6 +7,12 @@
 > 1. Avoid code duplication:
 > > * Several classes doing the same job, and the implementations for that job are different (e.g., inference using PyTorch vs TensorRT).
 
+## Structural Patterns
+
+1. [Composite](./lessons/composite.ipynb)
+> [!TIP]
+> Treat leaf objects and composite objects ***uniformly***, where the composite object can contain leaf objects or other composite objects (like a tree).
+
 ## Behavioral Patterns
 
 1. [Command](./lessons/command.ipynb)
